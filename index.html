@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="timer.css">
+</head>
+
+<body onload=start()>
+    <h2 id="hh"> Time Keeper </h2>
+    <h4 id="k"> ~the present moment is all you will ever have</h4>
+    <div class="bb">
+        <h4 id="min"></h4>
+    </div>
+    <div class="bbb">
+        <h4 id="sec"></h4>
+    </div>
+    <div class="o">
+        <div class="oo">
+            <h4 id="start"> START</h4>
+        </div>
+        <div class="ok">
+            <h4 id="stop" onclick=start1()> STOP</h4>
+        </div>
+        <div class="po">
+            <h4 id="mm" onclick=setTimeout(reset(),1200000000)> RESET</h4>
+        </div>
+    </div>
+    <img id="kk" src="https://th.bing.com/th/id/OIP.sgdAZ3DpO1qhCrI1Kf5DkQHaEO?pid=ImgDet&rs=1">
+    <script src="timer.js"></script>
+</body>
+
+</html>
