@@ -1,0 +1,156 @@
+body {
+    background: linear-gradient(106.7deg, rgb(151, 150, 240) 12.1%, rgb(255, 206, 236) 63.2%);
+}
+
+#hh {
+    text-align: center;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+#k {
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding-bottom: 30px;
+}
+
+#min {
+    font-size: 50px;
+}
+
+#sec {
+    font-size: 50px;
+}
+
+.bb {
+    padding-left: 600px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.mo {
+    padding-left: 550px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    padding-bottom: 50px;
+}
+
+#start {
+    background-color: white;
+    box-shadow: palegreen;
+    box-shadow: -4px -4px 10px rgb(255, 255, 255, 1);
+    width: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+#start:hover {
+    box-shadow: inset -4px -4px 8px rgb(255, 255, 255, 1);
+    box-shadow: inset -4px -4px 12px rgb(255, 255, 255, 0.5);
+    box-shadow: inset -4px -4px 6px rgba(110, 38, 86, 0.1);
+}
+
+#stop {
+    background-color: white;
+    box-shadow: palegreen;
+    box-shadow: -4px -4px 10px rgb(255, 255, 255, 1);
+    width: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+#stop:hover {
+    box-shadow: inset -4px -4px 8px rgb(255, 255, 255, 1);
+    box-shadow: inset -4px -4px 12px rgb(255, 255, 255, 0.5);
+    box-shadow: inset -4px -4px 6px rgba(110, 38, 86, 0.1);
+}
+
+#mm {
+    background-color: white;
+    box-shadow: palegreen;
+    box-shadow: -4px -4px 10px rgb(255, 255, 255, 1);
+    width: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+#mm:hover {
+    box-shadow: inset -4px -4px 8px rgb(255, 255, 255, 1);
+    box-shadow: inset -4px -4px 12px rgb(255, 255, 255, 0.5);
+    box-shadow: inset -4px -4px 6px rgba(110, 38, 86, 0.1);
+}
+
+.ok {
+    display: flex;
+    float: left;
+    padding-left: 50px;
+}
+
+.oo {
+    display: flex;
+    float: left;
+    padding-left: 50px;
+}
+
+.po {
+    display: flex;
+    float: left;
+    padding-left: 50px;
+}
+
+.o {
+    padding-left: 450px;
+}
+
+#kk {
+    width: 1500px;
+    height: 300px;
+    padding-top: 100px;
+}
+
+@media screen and (max-width:700px) {
+    .ok {
+        display: flex;
+        float: left;
+        padding-left: 10px;
+    }
+    .oo {
+        display: flex;
+        float: left;
+        padding-left: 10px;
+    }
+    .po {
+        display: flex;
+        float: left;
+        padding-left: 10px;
+    }
+    .o {
+        padding-left: 100px;
+    }
+    #kk {
+        width: 500px;
+        padding-top: 100px;
+    }
+    .bb {
+        padding-left: 150px;
+        color: white;
+        font-family: 'Pacifico', cursive;
+    }
+    .mo {
+        padding-left: 100px;
+        padding-bottom: 50px;
+        color: white;
+        font-family: 'Pacifico', cursive;
+    }
+}
